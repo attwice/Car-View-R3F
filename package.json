@@ -1,0 +1,39 @@
+{
+  "name": "gt-sport-r3f",
+  "version": "1.0.0",
+  "description": "An attempt to recreate a scene from the PS4 game Gran Turismo Sport",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "7.1.2",
+    "@react-three/fiber": "7.0.5",
+    "@react-three/postprocessing": "^2.0.4",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "@types/three": "^0.130.0",
+    "babel-plugin-glsl": "^1.0.0",
+    "leva": "^0.9.13",
+    "postprocessing": "6.22.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.130.1",
+    "three-stdlib": "^2.3.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
